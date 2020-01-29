@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Materialize</title>
+    <!-- Compiled and minified CSS -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+   <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+   <!-- Compiled and minified JavaScript -->
+   <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+   <script>
+     $(document).ready(function(){
+       $('.sidenav').sidenav()
+     })
+   </script>
+  </head>
+  <body>
+    <h1>Materialize</h1>
+
+    <div class="container">
+      <h1>Hey ninjas</h1>
+      <h2>H2</h2>
+      <h3>3</h3>
+      <h4>4</h4>
+      <h5>5</h5>
+      <h6>6</h6>
+      <p>This is a para.</p>
+      <p class="flow-text">This is a flow text.</p>
+    </div>
+    <!--Hiding Elements-->
+    <div class="container">
+      <h4 class="hide">Hide me on all screens.</h4>
+      <h4 class="hide-on-small-only">Hide me on small screens.</h4>
+      <h4 class="hide-on-med-only">Hide me on medium screens.</h4>
+      <h4 class="hide-on-large-only">Hide me on large screens.</h4>
+      <h4 class="hide-on-med-and-up">Hide me on medium & large screens.</h4>
+      <h4 class="hide-on-med-and-down">Hide me on medium & small screens.</h4>
+    </div>
+    <div class="container">
+      <h5 class="center-align">Center alignment</h5>
+      <h5 class="left-align">Left alignment</h5>
+      <h5 class="right-align">Right alignment</h5>
+    </div>
+    <div class="container grey lighten-2 box valign-wrapper" style="height:200px">
+      <h5>Vertical align</h5>
+    </div>
+    <div class="container">
+      <p class="truncate">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div>
+
+    <!--Buttons-->
+    <div class="container">
+      <h4>Buttons</h4>
+      <a href="#" class="btn waves-effect waves-dark">Normal button</a>
+      <a href="#" class="btn-small pulse">Small button</a>
+      <a href="#" class="btn-large">Large button</a>
+      <a href="#" class="btn-small indigo waves-effect waves-light">Indigo button</a>
+      <a href="#" class="btn disabled">Disabled button</a>
+      <h4>Floating Button</h4>
+      <a href="#" class="btn-floating pink pulse"></a>
+      <h4>Other Elements</h4>
+      <div class="btn pulse">
+        I am div tag
+      </div>
+    </div>
+
+
+    <!--Icons-->
+    <div class="container">
+      <i class="material-icons red-text">error</i>
+      <i class="material-icons yellow-text text-darken-2">warning</i>
+      <i class="material-icons grey-text">cloud</i>
+      <i class="material-icons blue-text">folder</i>
+      <h4>Icons On Buttons</h4>
+      <a href="#" class="btn indigo">
+        <span>Send</span>
+        <i class="material-icons right">send</i>
+      </a>
+      <a href="#" class="btn pink waves-effect waves-light">
+        <span>Email</span>
+        <i class="material-icons left">email</i>
+      </a>
+      <h5>Floating Buttons</h5>
+      <a href="#" class="btn-floating blue pulse">
+        <i class="material-icons">add</i>
+      </a>
+      <a href="#" class="btn-floating red pulse">
+        <i class="material-icons">remove</i>
+      </a>
+      <a href="#" class="btn-floating orange pulse">
+        <i class="material-icons">edit</i>
+      </a>
+    </div>
+
+<style media="screen">
+  .col > div{
+    background: lightblue;
+    height: 120px;
+  }
+</style>
+    <!--Responsive GRID SYSTEM-->
+    <div class="container">
+      <h4>Grid System</h4>
+      <div class="row">
+        <div class="col s3 m6">content</div>
+        <div class="col s3 m6">content</div>
+        <div class="col s3 m6">content</div>
+        <div class="col s3 m6">content</div>
+      </div>
+    </div>
+
+    <!--Depth And Shadows-->
+  <div class="container">
+    <h4>Shadows And Depth</h4>
+    <div class="row">
+      <div class="col s2">
+        <div class="z-depth-1">
+
+        </div>
+      </div>
+      <div class="col s2">
+        <div class="z-depth-2">
+
+        </div>
+      </div>
+      <div class="col s2">
+        <div class="z-depth-3">
+
+        </div>
+      </div><div class="col s2">
+        <div class="z-depth-4">
+
+        </div>
+      </div>
+      <div class="col s2">
+        <div class="z-depth-5">
+
+        </div>
+      </div>
+      <div class="col s2">
+        <div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!--NAVBAR-->
+  <nav class="nav-wrapper indigo">
+    <div class="container">
+      <a href="#" class="brand-logo">Site Title</a>
+      <a href="#" class="sidenav-trigger" data-target="mobile-links">
+        <i class="material-icons">menu</i>
+      </a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">Login</a></li>
+        <li><a href="#" class="btn-floating indigo darken-4 z-depth-0">
+          <i class="material-icons">notifications</i></a></li>
+        <li><span class="badge white-text pink new left">5</span></li>
+      </ul>
+    </div>
+  </nav>
+  <style>
+    nav .badge{
+      position: relative;
+      top: 20px;
+      right: 20px;
+    }
+  </style>
+  <ul class="sidenav" id="mobile-links">
+    <li><a href="#">Home</a></li>
+    <li><a href="#">About</a></li>
+    <li><a href="#">Contact</a></li>
+    <li><a href="#">Login</a></li>
+  </ul>
+
+
+  <!--Cards-->
+  <div class="container">
+  <div class="row">
+    <div class="col s12 l6">
+      <div class="card" style="height:auto">
+        <div class="card-img">
+          <img src="./youth-united-wording.png" style="width: 100%;max-width:100%;">
+
+<!--ERROR !! IN HALFWAY-FAB !!!!!-->
+          <a href="#" class="halfway-fab btn-floating pink pulse"><i class="material-icons">favorite</i></a>
+        </div>
+        <div class="card-content">
+          <span class="card-title">Mango Curry</span>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+          <div class="card-action">
+            <a href="#">More Details</a>
+            <a href="#">View Ingredients</a>
+          </div>
+        </div>
+        </div>
+    </div>
+  </div>
+  </div>
+
+<!--COLLECTIONS-->
+  <div class="container">
+    <h2>COLLECTIONS</h2>
+    <ul class="collection with-header">
+      <li class="collection-header"><h2>Customers</h2></li>
+      <li class="collection-item avatar">
+        <i class="material-icons circle blue">person</i>
+       <span class="title">Ryu</span>
+       <p class="grey-text">Black-Belt</p>
+       <a href="#" class="secondary-content">
+        <i class="material-icons blue-text">email</i>
+       </a>
+      </li>
+     <li class="collection-item avatar">
+       <i class="material-icons circle blue">person</i>
+      <span class="title">Ryu</span>
+      <p class="grey-text">Black-Belt</p>
+      <a href="#" class="secondary-content">
+       <i class="material-icons blue-text">email</i>
+      </a>
+     </li>
+     <li class="collection-item avatar">
+       <i class="material-icons circle blue">person</i>
+      <span class="title">Ryu</span>
+      <p class="grey-text">Black-Belt</p>
+      <a href="#" class="secondary-content">
+       <i class="material-icons blue-text">email</i>
+      </a>
+     </li>
+    </ul>
+  </div>
+
+  <!--MODALS (POP-UPS)-->
+  <div class="container">
+    <h2>Modals</h2>
+    <a href="#terms" class="btn orange modal-trigger">Terms & Conditions</a>
+    <div class="modal" id="terms">
+      <div class="modal-content">
+        <h4>Terms & Conditions</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit.</p>
+      </div>
+      <div class="modal-footer">
+        <a href="#" class="modal-close btn orange">Agree and Close</a>
+      </div>
+    </div>
+    <script>
+      $(document).ready(function(){
+        $('.modal').modal();
+      })
+    </script>
+  </div>
+  </body>
+</html>
